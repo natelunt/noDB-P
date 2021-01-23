@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "img_url": "https://i.pinimg.com/originals/8e/54/12/8e5412aa6b6040e9d9bf0ae5a7b77444.png",
+        "character_name": "Cap'n Shanks",
+        "character_class": "Fighter",
+        "character_race": "Halfling",
+        "base_stat": {
+            "str": 21,
+            "dex": 16,
+            "con": 18,
+            "int": 9,
+            "wis": 12,
+            "cha": 15
+        }
+    },
+    {
+        "id": 2,
+        "img_url": "https://static.wikia.nocookie.net/emerald-isles/images/1/16/Dwarf_Fighter.png/revision/latest?cb=20181011174223",
+        "character_name": "Orin",
+        "character_class": "Fighter",
+        "character_race": "Dwarf",
+        "base_stat": {
+            "str": 19,
+            "dex": 15,
+            "con": 20,
+            "int": 9,
+            "wis": 12,
+            "cha": 7
+        }
+    }
+]
