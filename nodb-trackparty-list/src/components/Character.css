@@ -1,8 +1,15 @@
 .character-card {
-    height: 300px;
-    width: 500px;
+    
+    width: 60vw;
+    background-color: lightgray;
+    margin: 10px;
 }
 
 .character-card img {
     height: 275px;
+}
+
+.card-details {
+    display: flex;
+    justify-content: space-around;
 }

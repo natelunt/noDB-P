@@ -1,8 +1,9 @@
 import React from 'react'
+import './Banner.css'
 
-const Banner = () => {
+const Banner = props => {
     return(
-        <h1>Banner image will be presented here</h1>
+        <img src="https://cdn.wallpapersafari.com/82/26/4vqjJZ.jpg" alt="main banner"></img>
     )
 }
 

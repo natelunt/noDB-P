@@ -23,23 +23,26 @@ class App extends Component {
       this.setState({
         party: response.data
       })
+      console.log(this.state.party)
     })
   }
 
   render(){
-    let characters = this.state.party.map(character => {
-      return <Character character={character}/>
+    let characters = this.state.party.map((character, index) => {
+      return <Character character={character} getPartyFn={this.getParty} key={index}/>
     })
 
 
 
     return (
       <div>
-      <h1>Nate's mediocre app</h1>
-      <Banner/>
-      <AddCharacter/>
-      {characters}
-    </div>
+        <h1>Nate's mediocre app</h1>
+        <Banner/>
+        <div className="main">
+          <AddCharacter getPartyFn={this.getParty}/>
+          {characters}
+        </div>
+      </div>
     )
   
   }
